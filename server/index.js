@@ -9,6 +9,8 @@ import bodyParser from 'body-parser';
 import Connection from './database/db.js';
 import router from './routes/route.js';
 
+
+
 const app = express();
 
 dotenv.config();
